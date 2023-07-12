@@ -2,32 +2,43 @@
     width: 950px;
     background-color: silver;
     margin: 0px auto;
+    padding: 3px;
+    
 }
 .top-nav {
     height: 150px;
     background-color: green;
+    margin: 10px;
 }
 .side-nav {
     height: 300px;
     width: 200px;
     background-color: blue;
+    
 }
 .main {
     height: 400px;
-    width: 700px;
+    width: 713px;
     background-color: red;
+    margin-left: 13px;
+    margin-bottom: 15px;
 }
 .sub-content {
     height: 200px;
     width: 210px;
     background-color: yellow;
+    margin-top: 20px;
+    border: black 3px solid;
 }
 #advertisement {
     height: 120px;
-    width: 660px;
+    width: 630px;
     background-color: purple;
+    margin-top: 30px;
+    margin-left: 15px;
 }
 .row {
-    /* TODO - what should go here? */
+    display: flex;
+    margin-left: 13px;
 }
 
