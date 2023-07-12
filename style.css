@@ -2,7 +2,8 @@
     width: 950px;
     background-color: silver;
     margin: 0px auto;
-    padding: 3px;
+    padding: 20px;
+    overflow: hidden;
     
 }
 .top-nav {
@@ -25,13 +26,18 @@
 }
 .sub-content {
     height: 200px;
-    width: 210px;
+    width: 200px;
     background-color: yellow;
     margin-top: 20px;
-    border: black 3px solid;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 15px;
+
 }
 #advertisement {
-    height: 120px;
+    height: 110px;
     width: 630px;
     background-color: purple;
     margin-top: 30px;
@@ -40,5 +46,6 @@
 .row {
     display: flex;
     margin-left: 13px;
+    
 }
 
